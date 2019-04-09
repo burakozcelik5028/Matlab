@@ -1,4 +1,7 @@
-clear all; close all;clc;
+clear all;
+close all;
+clc;
+
 n=9;
 o=9;
 r=5;
