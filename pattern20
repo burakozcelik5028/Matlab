@@ -1,4 +1,7 @@
-clear all; close all;clc;
+clear all;
+close all;
+clc;
+
 w=5;
 for i=1:1:w
     for j=1:w-i
