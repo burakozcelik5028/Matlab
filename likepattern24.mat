@@ -1,0 +1,14 @@
+clear all; 
+close all;
+clc;
+
+o=5;
+for i=5:-1:1
+    for j=o:-1:i
+        fprintf(' ');
+    end
+    for k=1:1
+        fprintf('%d',[1:j-1 i:-1:k]);
+    end
+    fprintf('\n');
+end
