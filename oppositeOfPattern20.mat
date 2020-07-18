@@ -1,0 +1,17 @@
+clear all;
+close all;
+clc;
+
+n=9;
+o=9;
+r=5;
+for i=1:1:r
+    for j=1:r-i
+        fprintf(' ');
+    end
+    for k=1:1
+        fprintf('%d',[o:1:n n-1:-1:o]);
+        o=o-1;
+    end
+    fprintf('\n');
+end
