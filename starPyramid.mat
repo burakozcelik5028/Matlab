@@ -1,0 +1,11 @@
+clear all; close all;clc;
+r=5;
+for i=1:r
+    for j=1:r-i
+        fprintf(' ');
+    end
+    for k=1:i
+        fprintf('* ');
+    end
+    fprintf('\n');
+end
