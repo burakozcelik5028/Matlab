@@ -1,0 +1,22 @@
+clc
+clear all
+
+a=input('a değerini gir...:');
+b=input('b değerini gir...:');
+c=input('c değerini gir...:');
+
+fprintf('-------------------\n\n\n')
+
+top=toplama();
+fprintf('Toplama... = %g \n\n',top)
+
+cik=cikarma(a,b,c);
+fprintf('Çıkarma...= %g \n\n',cik)
+
+car=carpma(a,b,c);
+fprintf('Çarpma...= %g \n\n',car)
+
+bol=bolme(a,b,c);
+fprintf('Bölme...= %g \n\n',bol)
+
+fprintf('-------------------\n\n\n')
